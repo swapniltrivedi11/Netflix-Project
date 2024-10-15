@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+}
+.main {
+  background-image: url(assets/images/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg);
+  height: 70vh;
+  background-size: max(1200px, 100vw);
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body {
+  background-color: black;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+}
+nav img {
+  color: red;
+  height: 82px;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  margin-top: 20px;
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  color: white;
+  height: calc(100% - 87px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  text-align: center;
+  padding: 0px 30px;
+}
+.hero > :first-child {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.hero > :nth-child(2) {
+  font-size: 20px;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+}
+.sepration {
+  height: 6px;
+  background-color: gray;
+}
+.btn {
+  padding: 6px 8px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border-color: red;
+  font-size: larger;
+}
+button {
+  border-radius: 5px;
+}
+input {
+  border-radius: 5px;
+  padding: 10px 24px 10px 4px;
+  font-size: larger;
+  color: whitesmoke;
+  border: 1px solid rgba(23, 23, 23, 0.7);
+  background-color: rgba(23, 23, 23, 0.7);
+}
+.btsi {
+  font-size: medium;
+  cursor: pointer;
+}
+.English {
+  background-color: rgba(204, 196, 196, 0.223);
+  color: white;
+  border: 1px solid rgba(73, 49, 49, 0.691);
+  cursor: pointer;
+}
+.menu {
+  color: white;
+  margin: 20px;
+  margin-left: 100px;
+  gap: 12px;
+}
+#region,
+#type {
+  background-color: rgba(78, 75, 71, 0.364);
+  color: white;
+  padding: 3px 20px;
+  gap: 12px;
+}
+#region :nth-child(1) {
+  background-color: aqua;
+  color: black;
+}
+#region :nth-child(2) {
+  background-color: aqua;
+  color: black;
+}
+.allbanners {
+  display: flex;
+  overflow-y: visible;
+  overflow-x: scroll;
+  gap: 10px;
+}
+.allbanners > li > img {
+  border-radius: 20px;
+}
+.reasons {
+  color: white;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.reas {
+}
+.reasons {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px;
+  padding: 20px;
+  background-color: #1a1a2e;
+}
+
+
+.reas {
+  flex: 1; 
+  background-color: #2c2c54;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.reas h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.reas p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.reas:hover {
+  background-color: #3b3b78;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+  }
+}
+.faq{
+  color: white;
+  padding: 50px;
+}
+.faqbox{
+     display: flex;
+     background-color: rgb(62, 60, 60);
+     color: white;
+     padding: 20px;
+     justify-content: space-between;
+     max-width: 60vw;
+     margin: auto;
+     margin-bottom: 20px;
+     font-size: larger;
+     cursor: pointer;
+     transition: all 2s ease-out ;
+}
+.faq h2{
+  text-align: center;
+  
+}
+.faqbox svg{
+  display: flex;
+  justify-items: end;
+  cursor: pointer;
+  transition: all 1.5s ease-out;
+}
+.faq :hover{
+  background-color: rgb(226, 47, 47);
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgb(156, 139, 139);
+
+}
+.ready1{
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
+.gsea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+.gte{
+  padding: 9f px 8px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border-color: red;
+  font-size: larger;
+}
+.gsea input{
+  background-color: #6b7dc21c;
+  color: white;
+  border: 1px solid;
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+}
+.footer-item > a {
+  color: rgb(156, 139, 139);
+}
+footer .ques{
+  padding: 34px;
+  color: rgb(156, 139, 139);
+  text-align: center
+
+}
+@media screen and (max-width:552px) {
+   gap: 55px;
+}
+.aboutme{
+  color: white;
+  text-align: center;
+}
+.aboutme>div >a >img{
+  width: 80px;
+  border-radius: 20px;
+}
+.profila{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  
+}
