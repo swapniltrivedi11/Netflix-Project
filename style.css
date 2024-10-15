@@ -263,6 +263,7 @@ footer .ques{
 .aboutme{
   color: white;
   text-align: center;
+  font-size: large;
 }
 .aboutme>div >a >img{
   width: 80px;
